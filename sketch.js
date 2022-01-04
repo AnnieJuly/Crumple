@@ -31,13 +31,11 @@ function draw() {
   rectMode(CENTER);
   background(0);
   Engine.update(engine);
-
-  paper.display();
-  ground.display();
-
   left.display();
   bottom.display();
   right.display();
+  paper.display();
+  ground.display();
 
   drawSprites();
  
