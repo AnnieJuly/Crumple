@@ -18,9 +18,9 @@ function setup() {
 	//Create the Bodies Here.
     paper = new Paper(100,640,20);
 
-	left = new Bin(550,625,25,100);
-	bottom = new Bin(610,662,110,25);
-	right = new Bin(670,625,25,100);
+	left = new Bin(500,625,25,100);
+	bottom = new Bin(560,662,100,25);
+	right = new Bin(620,625,25,100);
 
 	Engine.run(engine);
   
